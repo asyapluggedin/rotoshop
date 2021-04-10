@@ -1,2 +1,2 @@
-#UCLA DMA 172 Compressed Cinema Final
+# UCLA DMA 172 Compressed Cinema Final
 In Fall 2019, I took a class with Casey Reas on Compressed Cinema. For the final project, I wrote this drawing program that my team used to rotoscope a short video. You can view the final video [here on youtube](https://www.youtube.com/watch?v=DCEJFAOLlxQ&t=15s). The program is heavily based on prior work done by Casey Reas, but I made the colorpicker myself and arranged all the functions in a way most convenient for my classmates to work with. :) I'd also like to note that at the time, I was suffering from a really intensely horrible depression, so it's surprising I was able to write any code at all, let alone a usable program for my friends. 
