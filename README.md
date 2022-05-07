@@ -1,7 +1,19 @@
-# UCLA DMA 172 Compressed Cinema Final
-In Fall 2019, I took a class with Casey Reas on Compressed Cinema. For the final project, I wrote this drawing program that my classmates used to rotoscope a short video. You can view the final video [here on youtube](https://www.youtube.com/watch?v=DCEJFAOLlxQ&t=15s). 
+# UCLA DMA 172 Compressed Cinema
+I wrote this rotoscoping program in Fall 2019 for Casey Reas' Compressed Cinema class at UCLA Design | Media Arts. I worked in collaboration with Jimmy Zhi, Stephen Heo, and Seenahm Suriyasat, who used the program to produce [this short animation film](https://www.youtube.com/watch?v=DCEJFAOLlxQ&t=15s). It based on the original [Rotoshop program by Bob Sabiston](https://en.wikipedia.org/wiki/Rotoshop), which was developed to accellerate prodiction on the film A Scanner Darkly.
 
-After the basic frame-swaping rotoscroping functionality, I added the colorpicker and added navigation tools as requested by my classmates Jimmy Zhi, Stephen Heo, and Seenahm Suriyasat. 
+#### Utility
+The original Rotoshop program is designed for digitally creating animation that preserves the autographic quality of hand-drawn animation.
 
-#### Mental health note
-I'd like to note that at the time, I was suffering from a really intense depression, so it's surprising I was able to write any code at all, let alone a usable program for my friends. I remember feeling ashamed of writing so little code, but looking back, I am quite proud of myself.
+#### How to use
+You will first have to extract image frames from the video you would like to rotoscope.
+I have not yet included a script in this program to assist with that, so I recommend using ffmpeg.
+``` // ffmpeg -i example.mov -r 12 $example%03d.png ```
+
+Make sure all your extracted files are in the "input" folder.
+
+To run the program, use Processing 3, which is what I was using when I wrote it.
+Before you hit "run", edit the code in lines 1 and 2, following the commented out instructions.
+Then, you can run it! Happy rotoshoping!
+
+Your hand-drawn frames will save to the "output" folder. You can use ffmpeg again to stitch them back into a video format.
+
