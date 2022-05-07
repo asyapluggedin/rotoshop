@@ -139,7 +139,7 @@ void saveAnimationFrame() {
 }
 
 void loadFrame() {
-  String filename = videoPrefix + nf(currentFrame + 1, 2) + ".png";
+  String filename = "input/" + videoPrefix + nf(currentFrame + 1, 2) + ".png";
   videoFrame = loadImage(filename);
   println(currentFrame + " / " + (totalFrames-1));
 }
@@ -148,7 +148,7 @@ void loadFrame() {
 // if there is no data in the folder that corresponds
 // display message
 // folderEmpty
-// ffmpeg -i snip.mov -r 12 $snip%03d.png
+// ffmpeg -i example.mov -r 12 $example%03d.png
 
     // videoFrame = loadImage(folderEmpty);
   //  image(folderEmpty, 0, 0);
@@ -181,3 +181,4 @@ void undo() {
 // Missing file empty message in canvas screen
 // Display frame in interface panel
 // Add interface panel on top
+// for gh: add gitignore to the output and data
