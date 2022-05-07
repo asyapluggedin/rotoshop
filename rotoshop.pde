@@ -178,6 +178,7 @@ void undo() {
 // Bugs to fix:
 // Generate output pngs on run, preventing initial console error
 // Automatically figure out int totalFrames so users don't need to edit too much code
+// Oh no! I think my undo function is a lot more intense than it should be.
 
 // Features to add:
 // Add error message about empty input folder

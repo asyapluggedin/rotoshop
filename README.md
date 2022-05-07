@@ -12,9 +12,11 @@ I have not yet included a script in this program to assist with that, so I recom
 
 Make sure all your extracted files are in the "input" folder.
 
-To run the program, use Processing 3, which is what I was using when I wrote it.
-Before you hit "run", edit the code in lines 1 and 2, following the commented out instructions.
-Then, you can run it! Happy rotoshoping!
+To run the program, download Processing 3, which is what I used to write it.
+Make sure to edit the code in lines 1 and 2, following the commented out instructions.
+Then, you can run it! Happy rotoshopping! Once you hit the "run" button, the program should start and look something like this:
+
+![rotoshop](data/rotoshop.png)
 
 Your hand-drawn frames will save to the "output" folder. You can use ffmpeg again to stitch them back into a video format.
 
