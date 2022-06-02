@@ -166,7 +166,7 @@ void loadDrawing() {
     d.endDraw();
   } 
   catch (Exception e) {
-    println("Computer is grumpy!' " + e);
+    println("Computer is grumpy!" + e);
   }
 }
 
